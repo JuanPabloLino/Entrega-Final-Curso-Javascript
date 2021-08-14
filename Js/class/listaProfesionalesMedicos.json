@@ -1,0 +1,36 @@
+[
+    {
+        "nombre":"German",
+        "apellido":"A.",
+        "profesion":"Médico",
+        "especialidad":"Respiratorio"
+    },
+    {
+        "nombre":"Marcela",
+        "apellido":"B.",
+        "profesion":"Médica",
+        "especialidad":"Traumatología"
+    },{
+        "nombre":"Lucía",
+        "apellido":"C.",
+        "profesion":"Enfermera",
+        "especialidad":"Respiratorio"
+    },{
+        "nombre":"Carlos",
+        "apellido":"D.",
+        "profesion":"Enfermero",
+        "especialidad":"Respiratorio"
+    },{
+        "nombre":"German",
+        "apellido":"E.",
+        "profesion":"Kinesiólogo",
+        "especialidad":"Resporitario"
+    },{
+        "nombre":"Andrea",
+        "apellido":"F.",
+        "profesion":"Kinesióloga",
+        "especialidad":"Traumatología"
+    }
+]
+
+

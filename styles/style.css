@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body , p{
+    padding: 0em;
+    margin:0em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+
+}
+
+.elementos{
+    width: 40%;
+}
+
+.mainContainer{
+    display: flex;
+    padding-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px solid black;
+    width: auto;
+    margin: 0em 1em 0em 1em;
+    padding: 1em 1em 2em 1em ;
+}
+
+.titulo{
+    font-size: 2vw;
+    padding: 1em 0em 0em 1em;
+}
+
+#txtUserName{
+    margin:1em 1em 0em 1em;
+}
+
+#button{
+    margin:0em 0em 0em 1em;
+}
+
+.contact{
+display: flex;
+align-items: baseline;
+padding-bottom: 5em;
+justify-content: center;
+padding: 1em;
+}
+.contact button{
+    margin: .5em;
+}
+
+/* Menu Principal */
+
+#menuBar{
+    background-color: rgb(116, 116, 116);
+    padding: .1em;
+}
+
+#usuario{
+    color: white;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: .5em;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: nowrap;
+
+}
+
+.row button{
+    font-size: 14px;
+}
+
+.inputs{
+    padding-bottom: 1em;
+}
+
+#txtUserName{
+    margin: 0em;
+}
+
+
+
+/* LO NUEVO */
+
+#divMenuPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+#navegacion{
+    text-align: center;
+    margin-top: 2em;
+}
+#navegacion p {
+    margin-bottom: 1em;
+}
+
+.buttons2 button{
+    height: 36px;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+}
+
+.containerBotonFinalizar button{
+    height: 36px;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+
+
+}
+
+.inputUsuario{
+    min-width: 8em;
+    max-width: 12em;
+}
+.botonesElementos{
+    width: 30%;
+}
+
+#finalizarListaElementos{
+    margin-right: .5em;
+}
+
+
+#botonesElementos button{
+    background-color: red;
+}
+
+.estiloDivPaciente button{
+    margin-top: 1em;
+}
+
+.containerBotonFinalizar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Formulario Pacientes */
+#pacientes{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-top: 1em;
+align-items: center;
+
+}
+
+.buttonsPacientes button{
+    margin: 2em;
+}
+
+.formPacientes{
+    border: black 1px solid;
+    padding:1em;
+}
+
+.buttons1{
+    display: flex;
+}
+
+.buttons2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonEdad{
+    width: 30%;
+    margin-left: .7em;
+}
+
+#formError{
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+.estiloDivPaciente{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.estiloDivPaciente table{
+display: flex;
+margin-left:.5em;
+}
+
+.estiloDivPaciente td{
+    padding:.5em;
+}
+
+#eventoPaciente{
+    margin:.3em;
+}
+/* Formulario Pacientes */
+
+/*Lista de pacientes*/
+
+#seccionListaPaciente{
+    margin-top: 2em;
+}
+
+#listaPaciente{
+    text-align: center;
+}
+
+/*Lista de pacientes*/
+
+/* Personal Medico */
+
+#personalMedico{
+    display: flex;
+    width: 60%;
+}
+
+.personalMedico table {
+    text-align: center;
+    padding: 3vw;
+    overflow-x:scroll;
+}
+
+.personalMedico th{
+    padding: 1em;
+    text-align: center;
+
+}
+
+.encabezadoLista th{
+    color: rgb(116, 116, 116);
+}
+
+.personalMedico li {
+    border: 1px solid black;
+    width:13em;
+    padding: 1em;
+}
+
+
+/* Elementos */
+
+#elementos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.elementos th{
+    text-align: center;
+
+}
+
+/* Modal */
+
+.modal-content{
+    align-items: center;
+    margin-top: 15em;
+}
+
+/* @media (min-width: 576px){
+.col-sm-3 {
+    width: 30%
+} */
+
+
+@media (max-width: 992px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .input1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    /* .form-control{
+        width: 80%;
+    } */
+    .col-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+
+    .col-8{
+        width: 80%;
+    }
+
+    .col-sm-3 {
+        width: 100%
+    }
+
+    .form-card{
+ margin-bottom: 1em;
+    }
+
+    #usuario{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+
+    }
+    .inputUsuario{
+        min-width: 8em;
+        max-width: 12em;
+    }
+    /* Pacientes*/
+
+#formPacientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsPacientes button{
+    width: 80%;
+    margin: .5em;
+}
+
+.buttonsPacientes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+
+.col-sm-6{
+    width: 100%;
+}
+
+    /* Pacientes*/
+
+    /* Personal Medico*/
+    #personalMedico{
+        display: flex;
+        width: 100%;
+        font-size: 1rem;
+        overflow-x: auto;
+    }
+
+    /* Personal Medico*/
+
+    #elementos{
+        display: flex;
+        width: 100%;
+        font-size: 1rem;
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 768px){
+.col-md-9 {
+    width: 100%;
+}}
